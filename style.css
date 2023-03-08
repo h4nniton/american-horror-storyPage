@@ -1,0 +1,27 @@
+/* reset */
+*{
+
+    margin: 5;
+    padding: 0;
+    
+}
+
+body{
+    font-size: 22px;
+    color: white;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    padding: 70px 70px 24px 70px;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Righteous', cursive;
+    
+}
+
+.logo__img{
+    width: 650px;
+}
+
+.description_text{
+    font-weight: lighter;
+}
+
