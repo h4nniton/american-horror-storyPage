@@ -17,6 +17,21 @@ body{
     
 }
 
+main{
+
+    display: grid;
+    grid-template-columns: 2fr 200px;
+}
+
+.titulos{
+    display: grid;
+    grid-template-rows: 1fr 200px;
+}
+
+.description{
+    width: 800px;
+}
+
 .title_text{
     font-weight: lighter;
     text-shadow: 1px;
@@ -25,6 +40,12 @@ body{
 
 .logo__img{
     width: 650px;
+}
+
+.row2{
+    display: grid;
+    place-content: center;
+    gap: 24px;
 }
 
 
