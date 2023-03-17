@@ -17,11 +17,36 @@ body{
     
 }
 
+.title_text{
+    font-weight: lighter;
+    text-shadow: 1px;
+
+}
+
+
+
 .logo__img{
     width: 650px;
 }
 
 .description_text{
     font-weight: lighter;
+    text-shadow: 1px;
 }
 
+.coluna{
+    float: left;
+    width: 33.33%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.credit_text{
+    text-align: center;
+    margin-top: auto;
+    font-size: 20px;
+}
