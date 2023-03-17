@@ -20,7 +20,6 @@ body{
 .title_text{
     font-weight: lighter;
     text-shadow: 1px;
-
 }
 
 
@@ -37,12 +36,16 @@ body{
 .coluna{
     float: left;
     width: 33.33%;
+
 }
 
-.row::after {
+.row{
     content: "";
     clear: both;
-    display: table;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
 }
 
 .credit_text{
